@@ -6,7 +6,7 @@ $('img').click(function() {
      var b = $(this).attr("ninjasrc");
      
      $(this).attr("src",b);
-     $(this).attr("alt",a);
+     $(this).attr("ninjasrc",a);
     
 });
 
